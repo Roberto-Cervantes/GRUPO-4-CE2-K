@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\GRUPO-4-CE2-K.props" />
+</Project>

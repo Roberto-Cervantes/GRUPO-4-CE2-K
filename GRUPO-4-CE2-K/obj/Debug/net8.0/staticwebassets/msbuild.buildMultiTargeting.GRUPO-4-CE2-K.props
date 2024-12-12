@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GRUPO-4-CE2-K.props" />
+</Project>
