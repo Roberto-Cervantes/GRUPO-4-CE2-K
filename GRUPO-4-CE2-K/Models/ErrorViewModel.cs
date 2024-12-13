@@ -1,4 +1,4 @@
-namespace GRUPO_4_CE2_K.Models
+namespace AuthSystem.Models
 {
     public class ErrorViewModel
     {
