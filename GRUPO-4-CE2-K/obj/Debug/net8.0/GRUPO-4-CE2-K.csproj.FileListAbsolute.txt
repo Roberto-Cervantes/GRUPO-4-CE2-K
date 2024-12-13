@@ -409,3 +409,6 @@ C:\Users\Universo Industrial3\Desktop\Universidad\Programación Avanzada en Web\
 C:\Users\Universo Industrial3\Desktop\Universidad\Programación Avanzada en Web\GRUPO-4-CE2-K\GRUPO-4-CE2-K\obj\Debug\net8.0\GRUPO-4-CE2-K.pdb
 C:\Users\Universo Industrial3\Desktop\Universidad\Programación Avanzada en Web\GRUPO-4-CE2-K\GRUPO-4-CE2-K\obj\Debug\net8.0\GRUPO-4-CE2-K.genruntimeconfig.cache
 C:\Users\Universo Industrial3\Desktop\Universidad\Programación Avanzada en Web\GRUPO-4-CE2-K\GRUPO-4-CE2-K\obj\Debug\net8.0\ref\GRUPO-4-CE2-K.dll
+C:\Users\Universo Industrial3\Desktop\Universidad\Programación Avanzada en Web\GRUPO-4-CE2-K\GRUPO-4-CE2-K\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Universo Industrial3\Desktop\Universidad\Programación Avanzada en Web\GRUPO-4-CE2-K\GRUPO-4-CE2-K\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Universo Industrial3\Desktop\Universidad\Programación Avanzada en Web\GRUPO-4-CE2-K\GRUPO-4-CE2-K\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll

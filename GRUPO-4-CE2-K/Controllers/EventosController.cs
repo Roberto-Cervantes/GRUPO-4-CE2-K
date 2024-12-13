@@ -3,7 +3,6 @@ using GRUPO_4_CE2_K.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -17,10 +16,37 @@ namespace GRUPO_4_CE2_K.Controllers
         {
             _context = context;
         }
+
+        // GET: Eventos
         public async Task<IActionResult> Index()
         {
             var eventos = await _context.Eventos.Include(e => e.Categoria).ToListAsync();
             return View(eventos);
+        }
+
+        // GET: Eventos/Create
+        public IActionResult Create()
+        {
+            ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Nombre");
+            return View();
+        }
+
+        // POST: Eventos/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("Titulo,Descripcion,CategoriaId,Fecha,Hora,Duracion,Ubicacion,CupoMaximo")] Evento evento)
+        {
+            if (ModelState.IsValid)
+            {
+                evento.FechaRegistro = DateTime.Now;
+                evento.UsuarioRegistro = User.Identity.Name;
+                _context.Add(evento);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+
+            ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Nombre", evento.CategoriaId);
+            return View(evento);
         }
 
         // GET: Eventos/Edit/5
@@ -37,7 +63,6 @@ namespace GRUPO_4_CE2_K.Controllers
                 return NotFound();
             }
 
-            // Cargar las categorías desde la base de datos para el combo de selección
             ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Nombre", evento.CategoriaId);
             return View(evento);
         }
@@ -85,9 +110,7 @@ namespace GRUPO_4_CE2_K.Controllers
                 return NotFound();
             }
 
-            var evento = await _context.Eventos
-                .Include(e => e.Categoria)
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var evento = await _context.Eventos.Include(e => e.Categoria).FirstOrDefaultAsync(m => m.Id == id);
             if (evento == null)
             {
                 return NotFound();
@@ -102,16 +125,16 @@ namespace GRUPO_4_CE2_K.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var evento = await _context.Eventos.FindAsync(id);
-            _context.Eventos.Remove(evento);
-            await _context.SaveChangesAsync();
+            if (evento != null)
+            {
+                _context.Eventos.Remove(evento);
+                await _context.SaveChangesAsync();
+            }
+
             return RedirectToAction(nameof(Index));
         }
 
-        private bool EventoExists(int id)
-        {
-            return _context.Eventos.Any(e => e.Id == id);
-        }
-
+        // GET: Inscripciones/Index
         public async Task<IActionResult> Inscripcion(int? id)
         {
             if (id == null)
@@ -119,44 +142,87 @@ namespace GRUPO_4_CE2_K.Controllers
                 return NotFound();
             }
 
-            var evento = await _context.Eventos
-                .Include(e => e.Categoria)
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var evento = await _context.Eventos.Include(e => e.Categoria).FirstOrDefaultAsync(m => m.Id == id);
             if (evento == null)
             {
                 return NotFound();
             }
 
-            // Mostrar la vista de inscripción con el evento
             return View(evento);
         }
 
         // POST: Eventos/Inscripcion/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Inscripcion(int id, [Bind("Id")] Evento evento)
+        public async Task<IActionResult> Inscripcion(int id)
         {
-            if (id != evento.Id)
+            var evento = await _context.Eventos.FindAsync(id);
+            if (evento == null)
             {
-                return NotFound();
+                TempData["Error"] = "El evento no existe.";
+                return RedirectToAction(nameof(Index));
             }
 
-            // Aquí puedes agregar la lógica para inscribir al usuario en el evento
-            // Esto puede incluir la creación de una nueva inscripción, actualizando cupos disponibles, etc.
+            var usuarioId = User.Identity.Name;
 
-            // Ejemplo de creación de una inscripción
+            // Verificar si el usuario ya está inscrito
+            var inscripcionExistente = await _context.Inscripciones
+                .FirstOrDefaultAsync(i => i.EventoId == id && i.UsuarioId == usuarioId);
+
+            if (inscripcionExistente != null)
+            {
+                TempData["Error"] = "Ya estás inscrito en este evento.";
+                return RedirectToAction(nameof(Index));
+            }
+
+            // Verificar si hay cupo disponible
+            var inscripcionesActuales = await _context.Inscripciones
+                .CountAsync(i => i.EventoId == id);
+
+            if (inscripcionesActuales >= evento.CupoMaximo)
+            {
+                TempData["Error"] = "No hay cupos disponibles para este evento.";
+                return RedirectToAction(nameof(Index));
+            }
+
+            // Crear la inscripción
             var inscripcion = new Inscripcion
             {
-                EventoId = evento.Id,
-                UsuarioId = "UsuarioPrueba",  // Aquí debes tomar el usuario logueado
+                EventoId = id,
+                UsuarioId = usuarioId,
                 FechaInscripcion = DateTime.Now
             };
 
             _context.Add(inscripcion);
             await _context.SaveChangesAsync();
 
-            // Redirigir al Index o alguna otra vista después de la inscripción
+            TempData["Success"] = "Inscripción realizada con éxito.";
             return RedirectToAction(nameof(Index));
+        }
+
+
+
+
+        // GET: Eventos/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var evento = await _context.Eventos.Include(e => e.Categoria).FirstOrDefaultAsync(m => m.Id == id);
+            if (evento == null)
+            {
+                return NotFound();
+            }
+
+            return View(evento);
+        }
+
+        private bool EventoExists(int id)
+        {
+            return _context.Eventos.Any(e => e.Id == id);
         }
     }
 }
