@@ -1,0 +1,25 @@
+﻿@model GRUPO_4_CE2_K.Models.Evento
+
+@{
+    ViewData["Title"] = "Eliminar Evento";
+}
+
+<h2>Eliminar Evento</h2>
+
+<h3>¿Estás seguro de que deseas eliminar este evento?</h3>
+<div>
+    <h4>@Model.Titulo</h4>
+    <p><strong>Descripción:</strong> @Model.Descripcion</p>
+    <p><strong>Categoría:</strong> @Model.Categoria?.Nombre</p>
+    <p><strong>Fecha:</strong> @Model.Fecha.ToString("yyyy-MM-dd")</p>
+    <p><strong>Hora:</strong> @Model.Hora.ToString(@"hh\:mm")</p>
+    <p><strong>Duración:</strong> @Model.Duracion minutos</p>
+    <p><strong>Ubicación:</strong> @Model.Ubicacion</p>
+    <p><strong>Cupo Máximo:</strong> @Model.CupoMaximo</p>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a href="@Url.Action("Index")" class="btn btn-secondary">Cancelar</a>
+</form>

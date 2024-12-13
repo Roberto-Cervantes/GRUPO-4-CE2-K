@@ -1,0 +1,32 @@
+﻿@model GRUPO_4_CE2_K.Models.Evento
+
+@{
+    ViewData["Title"] = "Detalles del Evento";
+}
+
+<h2>@Model.Titulo</h2>
+
+<div>
+    <strong>Descripción:</strong> @Model.Descripcion
+</div>
+<div>
+    <strong>Categoría:</strong> @Model.Categoria.Nombre
+</div>
+<div>
+    <strong>Fecha:</strong> @Model.Fecha.ToShortDateString()
+</div>
+<div>
+    <strong>Hora:</strong> @Model.Hora.ToString(@"hh\:mm")
+</div>
+<div>
+    <strong>Duración:</strong> @Model.Duracion minutos
+</div>
+<div>
+    <strong>Ubicación:</strong> @Model.Ubicacion
+</div>
+<div>
+    <strong>Cupo Máximo:</strong> @Model.CupoMaximo
+</div>
+
+<a class="btn btn-primary" href="@Url.Action("Edit", "Eventos", new { id = Model.Id })">Editar</a>
+<a class="btn btn-danger" href="@Url.Action("Delete", "Eventos", new { id = Model.Id })">Eliminar</a>

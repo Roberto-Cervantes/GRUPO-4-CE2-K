@@ -1,22 +1,39 @@
-﻿using GRUPO_4_CE2_K.Areas.Identity.Data;
+﻿using GRUPO_4_CE2_K.Models; // Asegúrate de tener el namespace correcto para los modelos
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace GRUPO_4_CE2_K.Areas.Identity.Data;
-
-public class ApplicationDbContext : IdentityDbContext<Usuario>
+namespace GRUPO_4_CE2_K.Areas.Identity.Data
 {
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-        : base(options)
+    public class ApplicationDbContext : IdentityDbContext<Usuario>
     {
-    }
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+            : base(options)
+        {
+        }
 
-    protected override void OnModelCreating(ModelBuilder builder)
-    {
-        base.OnModelCreating(builder);
-        // Customize the ASP.NET Identity model and override the defaults if needed.
-        // For example, you can rename the ASP.NET Identity table names and more.
-        // Add your customizations after calling base.OnModelCreating(builder);
+        // DbSets para los modelos personalizados
+        public DbSet<Evento> Eventos { get; set; }
+        public DbSet<Inscripcion> Inscripciones { get; set; }
+        public DbSet<Categoria> Categorias { get; set; }
+
+        // Configuración del modelo de identidad
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+
+            
+            builder.Entity<Evento>()
+                .HasOne(e => e.Categoria)
+                .WithMany()
+                .HasForeignKey(e => e.CategoriaId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            builder.Entity<Inscripcion>()
+                .HasOne(i => i.Evento)
+                .WithMany()
+                .HasForeignKey(i => i.EventoId)
+                .OnDelete(DeleteBehavior.Cascade);
+        }
     }
 }
