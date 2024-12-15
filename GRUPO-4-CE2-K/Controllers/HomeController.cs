@@ -1,39 +1,33 @@
-﻿using GRUPO_4_CE2_K.Areas.Identity.Data;
-using AuthSystem.Models;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using GRUPO_4_CE2_K.Models;
 using System.Diagnostics;
 
 namespace GRUPO_4_CE2_K.Controllers
 {
-    [Authorize]
     public class HomeController : Controller
+{
+    private readonly ILogger<HomeController> _logger;
+
+    public HomeController(ILogger<HomeController> logger)
     {
-        private readonly ILogger<HomeController> _logger;
-        private readonly UserManager<Usuario> _userManager;
-
-        public HomeController(ILogger<HomeController> logger,UserManager<Usuario> userManager)
-        {
-            _logger = logger;
-            this._userManager = userManager;
-        }
-
-        public IActionResult Index()
-        {
-            ViewData["UserID"]=_userManager.GetUserId(this.User);
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+        _logger = logger;
     }
+
+    public IActionResult Index()
+    {
+        return View();
+    }
+
+    public IActionResult Privacy()
+    {
+        return View();
+    }
+
+    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+    public IActionResult Error()
+    {
+        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+    }
+}
 }

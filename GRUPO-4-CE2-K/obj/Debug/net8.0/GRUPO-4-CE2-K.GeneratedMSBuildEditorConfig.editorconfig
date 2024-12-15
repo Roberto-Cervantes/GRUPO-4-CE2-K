@@ -1,131 +1,83 @@
 is_global = true
 build_property.TargetFramework = net8.0
-build_property.TargetFramework = net8.0
-build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
-build_property.UsingMicrosoftNETSdkWeb = true
-build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
-build_property.InvariantGlobalization = 
-build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
-build_property.EnforceExtendedAnalyzerRules = 
-build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GRUPO_4_CE2_K
 build_property.RootNamespace = GRUPO_4_CE2_K
-build_property.ProjectDir = C:\Users\Universo Industrial3\Desktop\Universidad\Programación Avanzada en Web\GRUPO-4-CE2-K\GRUPO-4-CE2-K\
+build_property.ProjectDir = C:\Users\User\Documents\VisualStudioProjects\GRUPO-4-CE2-K\GRUPO-4-CE2-K\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Universo Industrial3\Desktop\Universidad\Programación Avanzada en Web\GRUPO-4-CE2-K\GRUPO-4-CE2-K
+build_property.MSBuildProjectDirectory = C:\Users\User\Documents\VisualStudioProjects\GRUPO-4-CE2-K\GRUPO-4-CE2-K
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Areas/Identity/Pages/Account/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Areas/Identity/Pages/Account/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Areas/Identity/Pages/Account/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Areas/Identity/Pages/_AuthLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX0F1dGhMYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Areas/Identity/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/User/Documents/VisualStudioProjects/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Evento2/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvMlxDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Evento2/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvMlxEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Evento2/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvMlxEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Evento2/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvMlxFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Evento2/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvMlxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Eventos/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Eventos/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Eventos/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Eventos/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Eventos/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Eventos/Inscripcion.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xJbnNjcmlwY2lvbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Home/Index.cshtml]
+[C:/Users/User/Documents/VisualStudioProjects/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Home/Privacy.cshtml]
+[C:/Users/User/Documents/VisualStudioProjects/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Shared/Error.cshtml]
+[C:/Users/User/Documents/VisualStudioProjects/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Mechanics/PendingRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVjaGFuaWNzXFBlbmRpbmdSZXF1ZXN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/VisualStudioProjects/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Permission/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzc2lvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/VisualStudioProjects/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/VisualStudioProjects/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/RepairRequests/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwYWlyUmVxdWVzdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/VisualStudioProjects/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Roles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/VisualStudioProjects/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/User/Documents/VisualStudioProjects/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/VisualStudioProjects/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/User/Documents/VisualStudioProjects/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/_ViewImports.cshtml]
+[C:/Users/User/Documents/VisualStudioProjects/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/UserRoles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJvbGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/VisualStudioProjects/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/VisualStudioProjects/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/_ViewStart.cshtml]
+[C:/Users/User/Documents/VisualStudioProjects/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/GRUPO-4-CE2-K/GRUPO-4-CE2-K/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-50txmyh83o

@@ -1,0 +1,46 @@
+﻿@model RepairRequest
+@inject UserManager<IdentityUser> UserManager
+@inject SignInManager<IdentityUser> SignInManager
+@using Microsoft.AspNetCore.Identity
+
+
+@{
+    ViewBag.Title = "Nueva Solicitud de Reparación";
+}
+
+<h2>Registrar Solicitud de Reparación</h2>
+<form asp-action="Create" method="post">
+
+    <label>Correo del Cliente:</label>
+    <input type="text" name="CustomerEmail" 
+        value=@User.Identity.Name readonly/>
+    <br />
+
+    <label>Teléfono:</label>
+    <input type="text" asp-for="CustomerPhone" required />
+    <br />
+
+    <label>Marca del Auto:</label>
+    <input type="text" asp-for="CarBrand" required />
+    <br />
+
+    <label>Modelo del Auto:</label>
+    <input type="text" asp-for="CarModel" required />
+    <br />
+
+    <label>Año del Auto:</label>
+    <input type="text" asp-for="CarYear" required />
+    <br />
+
+    <label>Placa del Auto:</label>
+    <input type="text" asp-for="CarPlate" required />
+    <br />
+
+    <label>Tipo de Reparación:</label>
+    <select asp-for="RepairTypeId" asp-items="@(new SelectList(ViewBag.RepairTypes, "Id", "Name"))" required>
+        <option value="">Seleccione un tipo</option>
+    </select>
+    <br />
+
+    <button type="submit">Registrar Solicitud</button>
+</form>

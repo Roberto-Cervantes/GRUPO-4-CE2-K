@@ -1,0 +1,46 @@
+﻿@model IEnumerable<RepairRequest>
+@{
+    ViewBag.Title = "Solicitudes Pendientes";
+}
+
+<h2>Solicitudes de Reparación Pendientes</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Cliente</th>
+            <th>Teléfono</th>
+            <th>Detalles del Auto</th>
+            <th>Tipo de Reparación</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var request in Model)
+        {
+            <tr>
+                <td>@request.CustomerName</td>
+                <td>@request.CustomerPhone</td>
+                <td>@request.CarBrand @request.CarModel (@request.CarYear)</td>
+                <td>@request.RepairType.Name</td>
+                <td>
+                    <form asp-action="AssignRequest" method="post" style="display:inline;">
+                        <input type="hidden" name="requestId" value="@request.Id" />
+                        <select name="mechanicId" required>
+                            <option value="">Seleccione un Mecánico</option>
+                            @foreach (var mechanic in ViewBag.Mechanics)
+                            {
+                                <option value="@mechanic.Id">@mechanic.Name</option>
+                            }
+                        </select>
+                        <button type="submit" class="btn btn-primary">Asignar</button>
+                    </form>
+                    <form asp-action="CompleteRequest" method="post" style="display:inline;">
+                        <input type="hidden" name="requestId" value="@request.Id" />
+                        <button type="submit" class="btn btn-success">Marcar como Completada</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
