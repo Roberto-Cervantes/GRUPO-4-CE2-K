@@ -56,8 +56,17 @@ namespace GRUPO_4_CE2_K.Controllers
         // POST: Evento/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,Description,CategoryId,EventDate,EventTime,DurationMinutes,Location,MaxAttendees,RegisteredByUserId")] Evento evento)
+        public async Task<IActionResult> Create([Bind("Id,Title,Description,CategoryId,EventDate," +
+            "EventTime,DurationMinutes,Location,MaxAttendees,RegisteredByUserId")] Evento evento)
         {
+            evento.Category = _context.Categoria
+                .FirstOrDefault(c => c.Id == evento.CategoryId);
+
+            evento.Description = "Predeterminado";
+
+            ModelState.Clear();
+            TryValidateModel(evento);
+
             if (ModelState.IsValid)
             {
                 evento.RegisteredAt = DateTime.Now; // Fecha de registro automática
@@ -91,12 +100,19 @@ namespace GRUPO_4_CE2_K.Controllers
         // POST: Evento/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,CategoryId,EventDate,EventTime,DurationMinutes,Location,MaxAttendees,RegisteredByUserId")] Evento evento)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,CategoryId,EventDate," +
+            "EventTime,DurationMinutes,Location,MaxAttendees,RegisteredByUserId")] Evento evento)
         {
             if (id != evento.Id)
             {
                 return NotFound();
             }
+
+            evento.Category= await _context.Categoria
+                .FirstOrDefaultAsync(m => m.Id == id);
+
+            ModelState.Clear();
+            TryValidateModel(evento);
 
             if (ModelState.IsValid)
             {
