@@ -1,0 +1,24 @@
+﻿@model GRUPO_4_CE2_K.Models.Inscripcion
+
+@{
+    ViewData["Title"] = "Crear Inscripción";
+}
+
+<h1>Crear Nueva Inscripción</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="EventId" class="control-label">Evento</label>
+        <input asp-for="EventId" class="form-control" />
+        <span asp-validation-for="EventId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="UserId" class="control-label">Usuario</label>
+        <input asp-for="UserId" class="form-control" />
+        <span asp-validation-for="UserId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

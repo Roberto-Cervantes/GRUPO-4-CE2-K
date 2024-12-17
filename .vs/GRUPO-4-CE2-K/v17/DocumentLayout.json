@@ -1,44 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\user\\documents\\visualstudioprojects\\grupo-4-ce2-k\\grupo-4-ce2-k\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\user\\documents\\visualstudioprojects\\grupo-4-ce2-k\\grupo-4-ce2-k\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\user\\documents\\visualstudioprojects\\grupo-4-ce2-k\\grupo-4-ce2-k\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\user\\documents\\visualstudioprojects\\grupo-4-ce2-k\\grupo-4-ce2-k\\controllers\\categoriacontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\controllers\\categoriacontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\user\\documents\\visualstudioprojects\\grupo-4-ce2-k\\grupo-4-ce2-k\\models\\asistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\models\\asistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\user\\documents\\visualstudioprojects\\grupo-4-ce2-k\\grupo-4-ce2-k\\controllers\\asistenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\controllers\\asistenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\user\\documents\\visualstudioprojects\\grupo-4-ce2-k\\grupo-4-ce2-k\\models\\inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\models\\inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\user\\documents\\visualstudioprojects\\grupo-4-ce2-k\\grupo-4-ce2-k\\controllers\\inscripcioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\controllers\\inscripcioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\user\\documents\\visualstudioprojects\\grupo-4-ce2-k\\grupo-4-ce2-k\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -46,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 275,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -91,123 +54,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "GRUPO-4-CE2-K\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T03:46:59.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "GRUPO-4-CE2-K\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T03:38:11.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InscripcionController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Controllers\\InscripcionController.cs",
-              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Controllers\\InscripcionController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Controllers\\InscripcionController.cs",
-              "RelativeToolTip": "GRUPO-4-CE2-K\\Controllers\\InscripcionController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAwwCIAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T03:37:25.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Inscripcion.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Models\\Inscripcion.cs",
-              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Models\\Inscripcion.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Models\\Inscripcion.cs",
-              "RelativeToolTip": "GRUPO-4-CE2-K\\Models\\Inscripcion.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T03:36:11.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AsistenciaController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Controllers\\AsistenciaController.cs",
-              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Controllers\\AsistenciaController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Controllers\\AsistenciaController.cs",
-              "RelativeToolTip": "GRUPO-4-CE2-K\\Controllers\\AsistenciaController.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAcwGAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T03:35:50.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Asistencia.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Models\\Asistencia.cs",
-              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Models\\Asistencia.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Models\\Asistencia.cs",
-              "RelativeToolTip": "GRUPO-4-CE2-K\\Models\\Asistencia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T03:35:04.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoriaController .cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Controllers\\CategoriaController .cs",
-              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Controllers\\CategoriaController .cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Controllers\\CategoriaController .cs",
-              "RelativeToolTip": "GRUPO-4-CE2-K\\Controllers\\CategoriaController .cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAcwFcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T03:34:41.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Models\\Categoria.cs",
-              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Models\\Categoria.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Models\\Categoria.cs",
-              "RelativeToolTip": "GRUPO-4-CE2-K\\Models\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T03:33:50.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EventoController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Controllers\\EventoController.cs",
-              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Controllers\\EventoController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Controllers\\EventoController.cs",
-              "RelativeToolTip": "GRUPO-4-CE2-K\\Controllers\\EventoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T03:31:25.236Z",
-              "EditorCaption": ""
             }
           ]
         },

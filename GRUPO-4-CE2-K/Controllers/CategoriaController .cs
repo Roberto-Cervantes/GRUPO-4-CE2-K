@@ -20,7 +20,7 @@ namespace GRUPO_4_CE2_K.Controllers
 
         // GET: api/Categoria
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> Index()
         {
             var categorias = await _context.Categoria.ToListAsync();
             return Ok(categorias);
@@ -54,7 +54,7 @@ namespace GRUPO_4_CE2_K.Controllers
 
         // PUT: api/Categoria/{id}
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] Categoria categoria)
+        public async Task<IActionResult> Edit(int id, [FromBody] Categoria categoria)
         {
             if (id != categoria.Id)
                 return BadRequest(new { message = "El ID de la URL no coincide con el ID del cuerpo." });

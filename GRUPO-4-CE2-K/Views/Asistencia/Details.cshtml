@@ -1,0 +1,30 @@
+﻿@model GRUPO_4_CE2_K.Models.Asistencia
+
+@{
+    ViewData["Title"] = "Detalles de Asistencia";
+}
+
+<h1>Detalles de Asistencia</h1>
+
+<div>
+    <h4>Asistencia</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">ID:</dt>
+        <dd class="col-sm-10">@Model.Id</dd>
+
+        <dt class="col-sm-2">Evento:</dt>
+        <dd class="col-sm-10">@Model.Event?.Title</dd>
+
+        <dt class="col-sm-2">User ID:</dt>
+        <dd class="col-sm-10">@Model.UserId</dd>
+
+        <dt class="col-sm-2">Presente:</dt>
+        <dd class="col-sm-10">@(Model.IsPresent ? "Sí" : "No")</dd>
+
+        <dt class="col-sm-2">Fecha de Marcado:</dt>
+        <dd class="col-sm-10">@Model.MarkedAt</dd>
+    </dl>
+</div>
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Editar</a>
+<a asp-action="Index" class="btn btn-secondary">Volver al Listado</a>

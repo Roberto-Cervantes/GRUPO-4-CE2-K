@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GRUPO-4-CE2-K")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+520faf80d3987ea5343b5255e51da352126844be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c787d6189b67d98c7cbe83483bc7c6d538f56085")]
 [assembly: System.Reflection.AssemblyProductAttribute("GRUPO-4-CE2-K")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GRUPO-4-CE2-K")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

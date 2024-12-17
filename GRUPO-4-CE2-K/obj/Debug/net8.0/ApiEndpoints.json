@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "GRUPO_4_CE2_K.Controllers.AsistenciaController",
-    "Method": "GetAll",
+    "Method": "Index",
     "RelativePath": "api/Asistencia",
     "HttpMethod": "GET",
     "IsController": true,
@@ -43,7 +43,7 @@
   },
   {
     "ContainingType": "GRUPO_4_CE2_K.Controllers.AsistenciaController",
-    "Method": "Update",
+    "Method": "Edit",
     "RelativePath": "api/Asistencia/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -80,7 +80,7 @@
   },
   {
     "ContainingType": "GRUPO_4_CE2_K.Controllers.CategoriaController",
-    "Method": "GetAll",
+    "Method": "Index",
     "RelativePath": "api/Categoria",
     "HttpMethod": "GET",
     "IsController": true,
@@ -122,7 +122,7 @@
   },
   {
     "ContainingType": "GRUPO_4_CE2_K.Controllers.CategoriaController",
-    "Method": "Update",
+    "Method": "Edit",
     "RelativePath": "api/Categoria/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -159,7 +159,7 @@
   },
   {
     "ContainingType": "GRUPO_4_CE2_K.Controllers.InscripcionController",
-    "Method": "GetAll",
+    "Method": "Index",
     "RelativePath": "api/Inscripcion",
     "HttpMethod": "GET",
     "IsController": true,

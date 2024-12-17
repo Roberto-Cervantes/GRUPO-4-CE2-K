@@ -1,0 +1,30 @@
+﻿@model GRUPO_4_CE2_K.Models.Asistencia
+
+@{
+    ViewData["Title"] = "Crear Nueva Asistencia";
+}
+
+<h1>Registrar Nueva Asistencia</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="EventId" class="control-label">Evento</label>
+        <input asp-for="EventId" class="form-control" />
+        <span asp-validation-for="EventId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="UserId" class="control-label">User ID</label>
+        <input asp-for="UserId" class="form-control" />
+        <span asp-validation-for="UserId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="IsPresent" class="control-label">¿Presente?</label>
+        <input asp-for="IsPresent" type="checkbox" />
+        <span asp-validation-for="IsPresent" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

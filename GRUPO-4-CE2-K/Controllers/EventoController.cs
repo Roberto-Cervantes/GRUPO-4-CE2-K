@@ -35,7 +35,7 @@ namespace GRUPO_4_CE2_K.Controllers
         // POST: Evento/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Evento evento)
+        public async Task<IActionResult> Index(Evento evento)
         {
             if (ModelState.IsValid)
             {

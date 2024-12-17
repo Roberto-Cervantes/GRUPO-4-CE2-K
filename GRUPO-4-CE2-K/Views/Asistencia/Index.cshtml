@@ -1,23 +1,23 @@
-﻿@model IEnumerable<GRUPO_4_CE2_K.Models.Evento>
+﻿@model IEnumerable<GRUPO_4_CE2_K.Models.Asistencia>
 
 @{
-    ViewData["Title"] = "Eventos";
+    ViewData["Title"] = "Listado de Asistencias";
 }
 
-<h1>Lista de Eventos</h1>
+<h1>Listado de Asistencias</h1>
 
 <p>
-    <a asp-action="Create" class="btn btn-primary">Crear Nuevo Evento</a>
+    <a asp-action="Create" class="btn btn-primary">Registrar Nueva Asistencia</a>
 </p>
 
 <table class="table">
     <thead>
         <tr>
-            <th>Título</th>
-            <th>Categoría</th>
-            <th>Fecha</th>
-            <th>Ubicación</th>
-            <th>Cupo Máximo</th>
+            <th>ID</th>
+            <th>Evento</th>
+            <th>User ID</th>
+            <th>Presente</th>
+            <th>Fecha de Marcado</th>
             <th>Acciones</th>
         </tr>
     </thead>
@@ -25,11 +25,11 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>@item.Title</td>
-                <td>@item.Category?.Name</td>
-                <td>@item.EventDate.ToShortDateString()</td>
-                <td>@item.Location</td>
-                <td>@item.MaxAttendees</td>
+                <td>@item.Id</td>
+                <td>@item.Event?.Title</td>
+                <td>@item.UserId</td>
+                <td>@(item.IsPresent ? "Sí" : "No")</td>
+                <td>@item.MarkedAt</td>
                 <td>
                     <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Detalles</a>
                     <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Editar</a>

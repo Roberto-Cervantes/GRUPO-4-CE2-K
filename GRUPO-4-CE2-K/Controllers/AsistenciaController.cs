@@ -20,7 +20,7 @@ namespace GRUPO_4_CE2_K.Controllers
 
         // GET: api/Asistencia
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> Index()
         {
             var asistencias = await _context.Asistencia
                 .Include(a => a.Event)
@@ -63,7 +63,7 @@ namespace GRUPO_4_CE2_K.Controllers
 
         // PUT: api/Asistencia/{id}
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] Asistencia asistencia)
+        public async Task<IActionResult> Edit(int id, [FromBody] Asistencia asistencia)
         {
             if (id != asistencia.Id)
                 return BadRequest(new { message = "El ID proporcionado no coincide con la asistencia." });

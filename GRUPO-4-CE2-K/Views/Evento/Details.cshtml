@@ -1,79 +1,31 @@
-﻿@* @model GRUPO_4_CE2_K.Models.Evento
+﻿@model GRUPO_4_CE2_K.Models.Evento
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalles del Evento";
 }
 
-<h1>Details</h1>
+<h1>Detalles del Evento</h1>
 
 <div>
-    <h4>Evento</h4>
+    <h4>@Model.Title</h4>
     <hr />
     <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Titulo)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Titulo)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Descripcion)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Descripcion)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Categoria)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Categoria.Id)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Fecha)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Fecha)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Hora)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Hora)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Duracion)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Duracion)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Ubicacion)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Ubicacion)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.CupoMaximo)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.CupoMaximo)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.FechaRegistro)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.FechaRegistro)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.UsuarioRegistro)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.UsuarioRegistro)
-        </dd>
+        <dt class="col-sm-2">Descripción:</dt>
+        <dd class="col-sm-10">@Model.Description</dd>
+
+        <dt class="col-sm-2">Categoría:</dt>
+        <dd class="col-sm-10">@Model.Category?.Name</dd>
+
+        <dt class="col-sm-2">Fecha:</dt>
+        <dd class="col-sm-10">@Model.EventDate.ToShortDateString()</dd>
+
+        <dt class="col-sm-2">Ubicación:</dt>
+        <dd class="col-sm-10">@Model.Location</dd>
+
+        <dt class="col-sm-2">Cupo Máximo:</dt>
+        <dd class="col-sm-10">@Model.MaxAttendees</dd>
     </dl>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
- *@
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Editar</a>
+<a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>

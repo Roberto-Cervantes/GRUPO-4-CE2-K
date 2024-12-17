@@ -20,7 +20,7 @@ namespace GRUPO_4_CE2_K.Controllers
 
         // GET: api/Inscripcion
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> Index()
         {
             var inscripciones = await _context.Inscripcion
                 .Include(i => i.Event)
