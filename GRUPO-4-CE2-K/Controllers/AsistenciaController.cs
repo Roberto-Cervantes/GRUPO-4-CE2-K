@@ -2,98 +2,150 @@
 using Microsoft.EntityFrameworkCore;
 using GRUPO_4_CE2_K.Models;
 using System.Threading.Tasks;
-using System;
 using GRUPO_4_CE2_K.Data;
 
 namespace GRUPO_4_CE2_K.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class AsistenciaController : ControllerBase
+    public class AsistenciaController : Controller
     {
         private readonly ApplicationDbContext _context;
 
         public AsistenciaController(ApplicationDbContext context)
         {
-            _context = context;
+            _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
-        // GET: api/Asistencia
-        [HttpGet]
+        #region CRUD
+
+        // GET: Asistencia
         public async Task<IActionResult> Index()
         {
             var asistencias = await _context.Asistencia
                 .Include(a => a.Event)
                 .ToListAsync();
-            return Ok(asistencias);
+            return View(asistencias);
         }
 
-        // GET: api/Asistencia/{id}
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id)
+        // GET: Asistencia/Details/5
+        public async Task<IActionResult> Details(int? id)
         {
+            if (id == null)
+                return NotFound();
+
             var asistencia = await _context.Asistencia
                 .Include(a => a.Event)
-                .FirstOrDefaultAsync(a => a.Id == id);
+                .FirstOrDefaultAsync(m => m.Id == id);
 
             if (asistencia == null)
-                return NotFound(new { message = "Asistencia no encontrada." });
+                return NotFound();
 
-            return Ok(asistencia);
+            return View(asistencia);
         }
 
-        // POST: api/Asistencia
+        // GET: Asistencia/Create
+        public IActionResult Create()
+        {
+            ViewBag.Events = _context.Evento.ToList(); // Cargar lista de eventos
+            return View();
+        }
+
+        // POST: Asistencia/Create
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] Asistencia asistencia)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("Id,EventId,UserId,IsPresent")] Asistencia asistencia)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
+            if (ModelState.IsValid)
+            {
+                asistencia.MarkedAt = DateTime.Now; // Fecha automática
+                _context.Add(asistencia);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
 
-            // Validar existencia del evento
-            var evento = await _context.Evento.FindAsync(asistencia.EventId);
-            if (evento == null)
-                return BadRequest(new { message = "El evento especificado no existe." });
-
-            asistencia.MarkedAt = DateTime.Now; // Fecha de marcado automática
-            _context.Asistencia.Add(asistencia);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction(nameof(GetById), new { id = asistencia.Id }, asistencia);
+            ViewBag.Events = _context.Evento.ToList(); // Recargar eventos si falla
+            return View(asistencia);
         }
 
-        // PUT: api/Asistencia/{id}
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Edit(int id, [FromBody] Asistencia asistencia)
+        // GET: Asistencia/Edit/5
+        public async Task<IActionResult> Edit(int? id)
         {
-            if (id != asistencia.Id)
-                return BadRequest(new { message = "El ID proporcionado no coincide con la asistencia." });
+            if (id == null)
+                return NotFound();
 
-            var existingAsistencia = await _context.Asistencia.FindAsync(id);
-            if (existingAsistencia == null)
-                return NotFound(new { message = "Asistencia no encontrada." });
-
-            // Actualizar propiedades
-            existingAsistencia.IsPresent = asistencia.IsPresent;
-            existingAsistencia.MarkedAt = DateTime.Now; // Actualizar la fecha de marcado
-
-            _context.Asistencia.Update(existingAsistencia);
-            await _context.SaveChangesAsync();
-
-            return Ok(existingAsistencia);
-        }
-
-        // DELETE: api/Asistencia/{id}
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
-        {
             var asistencia = await _context.Asistencia.FindAsync(id);
             if (asistencia == null)
-                return NotFound(new { message = "Asistencia no encontrada." });
+                return NotFound();
 
-            _context.Asistencia.Remove(asistencia);
-            await _context.SaveChangesAsync();
-
-            return Ok(new { message = "Asistencia eliminada exitosamente." });
+            ViewBag.Events = _context.Evento.ToList(); // Cargar lista de eventos
+            return View(asistencia);
         }
+
+        // POST: Asistencia/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [Bind("Id,EventId,UserId,IsPresent")] Asistencia asistencia)
+        {
+            if (id != asistencia.Id)
+                return NotFound();
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    asistencia.MarkedAt = DateTime.Now; // Actualizar la fecha
+                    _context.Update(asistencia);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!AsistenciaExists(asistencia.Id))
+                        return NotFound();
+                    else
+                        throw;
+                }
+                return RedirectToAction(nameof(Index));
+            }
+
+            ViewBag.Events = _context.Evento.ToList();
+            return View(asistencia);
+        }
+
+        // GET: Asistencia/Delete/5
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+            var asistencia = await _context.Asistencia
+                .Include(a => a.Event)
+                .FirstOrDefaultAsync(m => m.Id == id);
+
+            if (asistencia == null)
+                return NotFound();
+
+            return View(asistencia);
+        }
+
+        // POST: Asistencia/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var asistencia = await _context.Asistencia.FindAsync(id);
+            if (asistencia != null)
+            {
+                _context.Asistencia.Remove(asistencia);
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        private bool AsistenciaExists(int id)
+        {
+            return _context.Asistencia.Any(e => e.Id == id);
+        }
+
+        #endregion
     }
 }

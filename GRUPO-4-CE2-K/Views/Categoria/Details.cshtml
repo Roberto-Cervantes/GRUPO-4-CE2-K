@@ -1,5 +1,25 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model GRUPO_4_CE2_K.Models.Categoria
+
 @{
+    ViewData["Title"] = "Detalles de la Categoría";
 }
+
+<h1>Detalles de la Categoría</h1>
+
+<div>
+    <h4>@Model.Name</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Descripción:</dt>
+        <dd class="col-sm-10">@Model.Description</dd>
+
+        <dt class="col-sm-2">Estado:</dt>
+        <dd class="col-sm-10">@(Model.IsActive ? "Activo" : "Inactivo")</dd>
+
+        <dt class="col-sm-2">Fecha de Registro:</dt>
+        <dd class="col-sm-10">@Model.RegisteredAt.ToString("dd/MM/yyyy")</dd>
+    </dl>
+</div>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Editar</a>
+<a asp-action="Index" class="btn btn-secondary">Volver al Listado</a>
