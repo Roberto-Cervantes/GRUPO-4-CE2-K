@@ -3,17 +3,22 @@ using Microsoft.EntityFrameworkCore;
 using GRUPO_4_CE2_K.Models;
 using System.Threading.Tasks;
 using GRUPO_4_CE2_K.Data;
+using Microsoft.AspNetCore.Identity;
 
 namespace GRUPO_4_CE2_K.Controllers
 {
     public class InscripcionController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public InscripcionController(ApplicationDbContext context)
+        public InscripcionController(ApplicationDbContext context,
+            UserManager<IdentityUser> userManager)
         {
-            _context = context ?? throw new ArgumentNullException(nameof(context));
+            _context = context; //?? throw new ArgumentNullException(nameof(context));
+            _userManager = userManager; //?? throw new ArgumentNullException(nameof(userManager));
         }
+    
 
         #region CRUD
 
@@ -46,6 +51,10 @@ namespace GRUPO_4_CE2_K.Controllers
         public IActionResult Create()
         {
             ViewBag.Events = _context.Evento.ToList(); // Lista de eventos
+
+            var usuarios = _userManager.Users.ToList();
+            ViewBag.Users = usuarios.Any() ? usuarios : new List<IdentityUser>();
+
             return View();
         }
 

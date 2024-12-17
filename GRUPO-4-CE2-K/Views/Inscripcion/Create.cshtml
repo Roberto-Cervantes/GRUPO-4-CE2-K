@@ -9,16 +9,22 @@
 <form asp-action="Create" method="post">
     <div class="form-group">
         <label asp-for="EventId" class="control-label">Evento</label>
-        <input asp-for="EventId" class="form-control" />
+        <select asp-for="EventId" class="form-control" asp-items="@(new SelectList(ViewBag.Events, "Id", "Title"))">
+            <option value="">Seleccione un evento</option>
+        </select>
         <span asp-validation-for="EventId" class="text-danger"></span>
     </div>
 
+
     <div class="form-group">
         <label asp-for="UserId" class="control-label">Usuario</label>
-        <input asp-for="UserId" class="form-control" />
+        <select asp-for="UserId" class="form-control" asp-items="@(new SelectList(ViewBag.Users, "Id", "FullName"))">
+            <option value="">Seleccione un usuario</option>
+        </select>
         <span asp-validation-for="UserId" class="text-danger"></span>
     </div>
 
     <button type="submit" class="btn btn-primary">Guardar</button>
     <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
 </form>
+System.NullReferenceException: 'Object reference not set to an instance of an object

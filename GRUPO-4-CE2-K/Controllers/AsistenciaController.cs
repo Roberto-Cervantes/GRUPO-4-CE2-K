@@ -3,27 +3,39 @@ using Microsoft.EntityFrameworkCore;
 using GRUPO_4_CE2_K.Models;
 using System.Threading.Tasks;
 using GRUPO_4_CE2_K.Data;
+using Microsoft.AspNetCore.Identity;
 
 namespace GRUPO_4_CE2_K.Controllers
 {
     public class AsistenciaController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public AsistenciaController(ApplicationDbContext context)
+        public AsistenciaController(ApplicationDbContext context,
+            UserManager<IdentityUser> userManager)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
+            _userManager = userManager; //?? throw new ArgumentNullException(nameof(userManager));
         }
 
         #region CRUD
 
         // GET: Asistencia
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            var asistencias = await _context.Asistencia
-                .Include(a => a.Event)
-                .ToListAsync();
-            return View(asistencias);
+            // Incluir detalles del Evento y Usuarios
+            var inscripciones = _context.Inscripcion
+                .Include(i => i.Event) // Trae información del evento
+                .ToList();
+
+            // Mapear los correos electrónicos de los usuarios
+            var userEmails = _userManager.Users.ToDictionary(u => u.Id, u => u.Email);
+
+            // Pasar los correos a la vista mediante ViewBag
+            ViewBag.UserEmails = userEmails;
+
+            return View(inscripciones);
         }
 
         // GET: Asistencia/Details/5
