@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace GRUPO_4_CE2_K.Models
 {
-    public class Inscripcion
+    public class Asistencia
     {
         public int Id { get; set; }
 
@@ -13,8 +13,9 @@ namespace GRUPO_4_CE2_K.Models
         public Evento Event { get; set; }
 
         [Required]
-        public int UserId { get; set; } // FK de usuario registrado
+        public int UserId { get; set; } // FK del usuario asistente
 
-        public DateTime RegisteredAt { get; set; } = DateTime.Now; // Fecha de registro
+        public bool IsPresent { get; set; } = false; // Estado de asistencia
+        public DateTime MarkedAt { get; set; } = DateTime.Now; // Fecha y hora de marcado
     }
 }

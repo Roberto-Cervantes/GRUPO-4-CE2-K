@@ -16,4 +16,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Inscripcion\" />
+    <Folder Include="Views\Categoria\" />
+    <Folder Include="Views\Asistencia\" />
+  </ItemGroup>
+
 </Project>

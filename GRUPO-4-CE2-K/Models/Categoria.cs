@@ -1,12 +1,21 @@
-﻿namespace GRUPO_4_CE2_K.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace GRUPO_4_CE2_K.Models
 {
     public class Categoria
     {
         public int Id { get; set; }
-        public string Nombre { get; set; }
-        public string Descripcion { get; set; }
-        public bool Estado { get; set; }
-        public DateTime FechaRegistro { get; set; }
-        public string UsuarioRegistro { get; set; }
+
+        [Required]
+        [StringLength(100)]
+        public string Name { get; set; }
+
+        [StringLength(500)]
+        public string Description { get; set; }
+
+        public bool IsActive { get; set; } = true;
+
+        public DateTime RegisteredAt { get; set; } = DateTime.Now; // Se configura automáticamente
+        public int RegisteredByUserId { get; set; } // FK de usuario creador
     }
 }
