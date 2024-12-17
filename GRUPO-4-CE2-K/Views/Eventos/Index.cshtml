@@ -1,0 +1,48 @@
+﻿@model IEnumerable<GRUPO_4_CE2_K.Models.Evento>
+
+@{
+    ViewData["Title"] = "Eventos";
+}
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<h2>Eventos</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Fecha</th>
+            <th>Hora</th>
+            <th>Cupo Máximo</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var evento in Model)
+        {
+            <tr>
+                <td>@evento.Titulo</td>
+                <td>@evento.Fecha.ToShortDateString()</td>
+                <td>@evento.Hora.ToString(@"hh\:mm")</td>
+                <td>@evento.CupoMaximo</td>
+                <td>
+                    <a class="btn btn-primary" href="@Url.Action("Details", "Eventos", new { id = evento.Id })">Detalles</a>
+                    <a class="btn btn-warning" href="@Url.Action("Edit", "Eventos", new { id = evento.Id })">Editar</a>
+                    <a class="btn btn-danger" href="@Url.Action("Delete", "Eventos", new { id = evento.Id })">Eliminar</a>
+                    <!-- Botón para Inscripción -->
+                    <a class="btn btn-success" href="@Url.Action("Inscripcion", "Eventos", new { id = evento.Id })">Inscribirse</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a class="btn btn-success" href="@Url.Action("Create", "Eventos")">Crear Evento</a>

@@ -1,14 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\",
+  "WorkspaceRootPath": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\user\\documents\\visualstudioprojects\\grupo-4-ce2-k\\grupo-4-ce2-k\\views\\repairrequests\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\views\\repairrequests\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\grupo-4-ce2-k\\grupo-4-ce2-k\\views\\eventos\\inscripcion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\views\\eventos\\inscripcion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\user\\documents\\visualstudioprojects\\grupo-4-ce2-k\\grupo-4-ce2-k\\controllers\\repairrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\grupo-4-ce2-k\\grupo-4-ce2-k\\views\\eventos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\views\\eventos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\grupo-4-ce2-k\\grupo-4-ce2-k\\views\\eventos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\views\\eventos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\grupo-4-ce2-k\\grupo-4-ce2-k\\views\\eventos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\views\\eventos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\grupo-4-ce2-k\\grupo-4-ce2-k\\views\\eventos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\views\\eventos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\grupo-4-ce2-k\\grupo-4-ce2-k\\views\\eventos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\views\\eventos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Data\\Migrations\\20241217023511_TablaEvento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GRUPO-4-CE2-K\\Data\\Migrations\\20241217023511_TablaEvento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\grupo-4-ce2-k\\grupo-4-ce2-k\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\grupo-4-ce2-k\\grupo-4-ce2-k\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\grupo-4-ce2-k\\grupo-4-ce2-k\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\grupo-4-ce2-k\\grupo-4-ce2-k\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\grupo-4-ce2-k\\grupo-4-ce2-k\\models\\inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\models\\inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\grupo-4-ce2-k\\grupo-4-ce2-k\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\grupo-4-ce2-k\\grupo-4-ce2-k\\controllers\\repairrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\controllers\\repairrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\grupo-4-ce2-k\\grupo-4-ce2-k\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\grupo-4-ce2-k\\grupo-4-ce2-k\\views\\repairrequests\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D99EA47D-4930-4B29-B65F-9DECA6C4B317}|GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj|solutionrelative:grupo-4-ce2-k\\views\\repairrequests\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/ROBERTO/GRUPO_4_CE2_K/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -49,6 +105,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
@@ -57,7 +117,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Bookmark",
@@ -70,38 +130,217 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Views\\Eventos\\Index.cshtml",
+              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Views\\Eventos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Views\\Eventos\\Index.cshtml",
+              "RelativeToolTip": "GRUPO-4-CE2-K\\Views\\Eventos\\Index.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T02:23:55.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Inscripcion.cshtml",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Views\\Eventos\\Inscripcion.cshtml",
+              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Views\\Eventos\\Inscripcion.cshtml",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Views\\Eventos\\Inscripcion.cshtml",
+              "RelativeToolTip": "GRUPO-4-CE2-K\\Views\\Eventos\\Inscripcion.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T02:25:11.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Views\\Eventos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Views\\Eventos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Views\\Eventos\\Edit.cshtml",
+              "RelativeToolTip": "GRUPO-4-CE2-K\\Views\\Eventos\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T02:24:35.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Views\\Eventos\\Details.cshtml",
+              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Views\\Eventos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Views\\Eventos\\Details.cshtml",
+              "RelativeToolTip": "GRUPO-4-CE2-K\\Views\\Eventos\\Details.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAqwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T02:24:23.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Views\\Eventos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Views\\Eventos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Views\\Eventos\\Delete.cshtml",
+              "RelativeToolTip": "GRUPO-4-CE2-K\\Views\\Eventos\\Delete.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAqwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T02:24:04.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Views\\Eventos\\Create.cshtml",
+              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Views\\Eventos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Views\\Eventos\\Create.cshtml",
+              "RelativeToolTip": "GRUPO-4-CE2-K\\Views\\Eventos\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T02:37:58.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "GRUPO-4-CE2-K\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvyUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T02:30:36.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "GRUPO-4-CE2-K\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T02:32:53.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Models\\Categoria.cs",
+              "RelativeToolTip": "GRUPO-4-CE2-K\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T02:27:47.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EventosController.cs",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Controllers\\EventosController.cs",
+              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Controllers\\EventosController.cs",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Controllers\\EventosController.cs",
+              "RelativeToolTip": "GRUPO-4-CE2-K\\Controllers\\EventosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T02:20:31.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Inscripcion.cs",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Models\\Inscripcion.cs",
+              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Models\\Inscripcion.cs",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Models\\Inscripcion.cs",
+              "RelativeToolTip": "GRUPO-4-CE2-K\\Models\\Inscripcion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T02:26:39.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Models\\Evento.cs",
+              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Models\\Evento.cs",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Models\\Evento.cs",
+              "RelativeToolTip": "GRUPO-4-CE2-K\\Models\\Evento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T02:20:45.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241217023511_TablaEvento.cs",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Data\\Migrations\\20241217023511_TablaEvento.cs",
+              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Data\\Migrations\\20241217023511_TablaEvento.cs",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Data\\Migrations\\20241217023511_TablaEvento.cs",
+              "RelativeToolTip": "GRUPO-4-CE2-K\\Data\\Migrations\\20241217023511_TablaEvento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T02:35:12.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\appsettings.json",
+              "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\appsettings.json",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\appsettings.json",
+              "RelativeToolTip": "GRUPO-4-CE2-K\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-15T22:51:04.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "RepairRequestsController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Controllers\\RepairRequestsController.cs",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Controllers\\RepairRequestsController.cs",
               "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Controllers\\RepairRequestsController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Controllers\\RepairRequestsController.cs",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Controllers\\RepairRequestsController.cs",
               "RelativeToolTip": "GRUPO-4-CE2-K\\Controllers\\RepairRequestsController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA4AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T05:54:39.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentIndex": 16,
+              "Title": "dbo.AspNetUsers.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/ROBERTO/GRUPO_4_CE2_K/True/SqlTable/dbo.AspNetUsers.sql",
-              "ToolTip": "dbo.AspNetUsers [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/ROBERTO/GRUPO_4_CE2_K/True/SqlTable/dbo.AspNetUsers.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-15T05:48:55.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T05:48:55.966Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 15,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Views\\RepairRequests\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Views\\RepairRequests\\Create.cshtml",
               "RelativeDocumentMoniker": "GRUPO-4-CE2-K\\Views\\RepairRequests\\Create.cshtml",
-              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Views\\RepairRequests\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\Views\\RepairRequests\\Create.cshtml",
               "RelativeToolTip": "GRUPO-4-CE2-K\\Views\\RepairRequests\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-15T05:34:22.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T05:34:22.156Z"
             }
           ]
         },

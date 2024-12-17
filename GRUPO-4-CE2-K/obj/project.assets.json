@@ -4552,19 +4552,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Universo Industrial3\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj",
+      "projectUniqueName": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programación Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj",
       "projectName": "GRUPO-4-CE2-K",
-      "projectPath": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\VisualStudioProjects\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\obj\\",
+      "projectPath": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programación Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K.csproj",
+      "packagesPath": "C:\\Users\\Universo Industrial3\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programación Avanzada en Web\\GRUPO-4-CE2-K\\GRUPO-4-CE2-K\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Universo Industrial3\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

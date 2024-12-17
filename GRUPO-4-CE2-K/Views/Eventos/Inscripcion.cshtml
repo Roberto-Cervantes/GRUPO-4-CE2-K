@@ -1,0 +1,16 @@
+﻿@model GRUPO_4_CE2_K.Models.Evento
+
+@{
+    ViewData["Title"] = "Inscripción a Evento";
+}
+
+<h2>Inscripción a @Model.Titulo</h2>
+
+<form asp-action="Inscripcion" method="post">
+    <p><strong>Evento:</strong> @Model.Titulo</p>
+    <p><strong>Fecha:</strong> @Model.Fecha.ToShortDateString()</p>
+    <p><strong>Hora:</strong> @Model.Hora.ToString(@"hh\:mm")</p>
+    <p><strong>Cupo Máximo:</strong> @Model.CupoMaximo</p>
+
+    <button type="submit" class="btn btn-success">Inscribirse</button>
+</form>
